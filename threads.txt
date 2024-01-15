@@ -22,7 +22,7 @@ import java.util.logging.Logger;
            for(int i= 0; i<5;i++)
            {
                  try {
-               System.out.print("Mehdi Hassan");
+               System.out.print("Aqela");
                    sleep(1000);
                } catch (InterruptedException ex) {
                    Logger.getLogger(A.class.getName()).log(Level.SEVERE, null, ex);
@@ -43,7 +43,7 @@ public class MultiThreading {
         t.start();
         for(int i = 1; i<5;i++)
         {
-            System.out.print("Kazmi");
+            System.out.print("Zainab");
             sleep(1000);
         }
     }
